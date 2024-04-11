@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-04-11 10:35:04
+# 创建时间：2024-04-11 17:30:08
 # 使用模版：V2RaySE 默认模版
 # 节点数量：3
 ####################################
@@ -87,7 +87,7 @@ dns:
 proxies:
   - {"name":"aws.zhangchangsheng.xyz","type":"vmess","server":"aws.zhangchangsheng.xyz","port":2002,"cipher":"auto","uuid":"f7848e0f-fc5a-4765-b36c-3e6d2db5fb08","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/301VDieu/","headers":{"host":"aws.zhangchangsheng.xyz"}}}
   - {"name":"vps.zhangchangsheng.xyz","type":"vmess","server":"vps.zhangchangsheng.xyz","port":443,"cipher":"auto","uuid":"f2087d23-4aed-4ad2-af12-d62c29e0b8a4","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vyrCLzKZ/","headers":{"host":"vps.zhangchangsheng.xyz"}}}
-  - {"name":"oracle.zhangchangsheng.xyz","type":"vmess","server":"155.248.187.77","port":443,"cipher":"auto","uuid":"e162efbf-5337-43d3-8570-c745a3fee149","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/EloXhdwH/","headers":{"host":"www.zhangchangsheng.com"}}}
+  - {"name":"oracle.zhangchangsheng.xyz","type":"vmess","server":"155.248.187.77","port":443,"cipher":"auto","uuid":"be1d6a01-faf5-4c5b-b552-de314090f587","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/HtNgo5yrn0ke","headers":{"host":"test.zhangchangsheng.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
