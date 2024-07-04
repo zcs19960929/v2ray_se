@@ -86,7 +86,7 @@ dns:
 
 proxies:
   - {"name":"aws.zhangchangsheng.xyz","type":"vmess","server":"aws.zhangchangsheng.xyz","port":2004,"cipher":"auto","uuid":"f7848e0f-fc5a-4765-b36c-3e6d2db5fb08","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/301VDieu/","headers":{"host":"aws.zhangchangsheng.xyz"}}}
-  - {"name":"vps.zhangchangsheng.xyz","type":"vmess","server":"vps.zhangchangsheng.xyz","port":443,"cipher":"auto","uuid":"f2087d23-4aed-4ad2-af12-d62c29e0b8a4","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vyrCLzKZ/","headers":{"host":"vps.zhangchangsheng.xyz"}}}
+  - {"name":"vps.zhangchangsheng.xyz","type":"vmess","server":"vps.zhangchangsheng.xyz","port":443,"cipher":"auto","uuid":"c8cbd865-8411-40d3-bea9-a0e9662e3042","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"vps.zhangchangsheng.xyz"}}}
   - {"name":"oracle.zhangchangsheng.xyz","type":"trojan","server":"test.zhangchangsheng.xyz","port":443,"password":"zcs19960929","skip-cert-verify":true,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
