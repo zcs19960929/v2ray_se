@@ -288,22 +288,16 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
-    proxies: []
+    proxies: [aws.zhangchangsheng.xyz,free.zhangchangsheng.xyz,test.zhangchangsheng.xyz]
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
-    proxies: []
-  - name: 🇸🇬 狮城节点
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies: []
+    proxies: [vps.zhangchangsheng.xyz]
   - name: 🎥 奈飞节点
     type: select
-    proxies: []
+    proxies: [vps.zhangchangsheng.xyz]
 
 rules:
 # 本地/局域网地址
