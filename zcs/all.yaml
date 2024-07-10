@@ -2580,6 +2580,8 @@ rules:
 #华文电视
 # VikACG
   - DOMAIN-KEYWORD,claude.ai,🚀 节点选择
+  - DOMAIN-KEYWORD,tiktok,🚀 节点选择
+  - DOMAIN-KEYWORD,meta.ai,🚀 节点选择
   - DOMAIN-SUFFIX,1password.com,🚀 节点选择
   - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
   - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
