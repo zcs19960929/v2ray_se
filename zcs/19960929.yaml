@@ -1,11 +1,10 @@
 ####################################
-# 创建者：zhangchangsheng01@gmail.com
-# 客户端：Clash.Meta
-# 创建时间：2024-07-10 17:40:51
+# 创建者：v2rayse.com
+# 客户端：Clash
+# 创建时间：2024-07-10 18:30:16
 # 使用模版：ACL4SSR_Online_Full_MultiMode.ini
 # 节点数量：3
-# 节点类型：vmess, vless
-# !!当前配置文件请使用基于 Clash.Meta 内核程序
+# 节点类型：vmess
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -98,16 +97,20 @@ proxy-groups:
       - ♻️ 自动选择
       - 🔯 故障转移
       - 🔮 负载均衡
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
       - 🚀 手动切换
       - DIRECT
   - name: 🚀 手动切换
     type: select
     proxies:
       - aws.zhangchangsheng.xyz
-      - vps.zhangchangsheng.xyz
       - test.zhangchangsheng.xyz
+      - vps.zhangchangsheng.xyz
       - free.zhangchangsheng.xyz
   - name: ♻️ 自动选择
     type: url-test
@@ -116,10 +119,9 @@ proxy-groups:
     tolerance: 50
     proxies:
       - aws.zhangchangsheng.xyz
-      - vps.zhangchangsheng.xyz
       - test.zhangchangsheng.xyz
+      - vps.zhangchangsheng.xyz
       - free.zhangchangsheng.xyz
-      
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -127,10 +129,9 @@ proxy-groups:
     tolerance: 50
     proxies:
       - aws.zhangchangsheng.xyz
-      - vps.zhangchangsheng.xyz
       - test.zhangchangsheng.xyz
+      - vps.zhangchangsheng.xyz
       - free.zhangchangsheng.xyz
-    
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
@@ -138,17 +139,20 @@ proxy-groups:
     tolerance: 50
     proxies:
       - aws.zhangchangsheng.xyz
-      - vps.zhangchangsheng.xyz
       - test.zhangchangsheng.xyz
+      - vps.zhangchangsheng.xyz
       - free.zhangchangsheng.xyz
-      
   - name: 📲 电报消息
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
       - 🚀 手动切换
       - DIRECT
   - name: 💬 OpenAi
@@ -156,8 +160,12 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
       - 🚀 手动切换
       - DIRECT
   - name: 📹 油管视频
@@ -165,8 +173,12 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
       - 🚀 手动切换
       - DIRECT
   - name: 🎥 奈飞视频
@@ -175,13 +187,18 @@ proxy-groups:
       - 🎥 奈飞节点
       - 🚀 节点选择
       - ♻️ 自动选择
+      - 🇸🇬 狮城节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
       - 🚀 手动切换
       - DIRECT
   - name: 📺 巴哈姆特
     type: select
     proxies:
+      - 🇨🇳 台湾节点
       - 🚀 节点选择
       - 🚀 手动切换
       - DIRECT
@@ -189,19 +206,28 @@ proxy-groups:
     type: select
     proxies:
       - 🎯 全球直连
+      - 🇨🇳 台湾节点
+      - 🇭🇰 香港节点
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
       - 🚀 手动切换
       - DIRECT
   - name: 🌏 国内媒体
     type: select
     proxies:
       - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🚀 手动切换
   - name: 📢 谷歌FCM
@@ -210,7 +236,11 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
       - 🚀 手动切换
   - name: Ⓜ️ 微软Bing
     type: select
@@ -218,7 +248,11 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
       - 🚀 手动切换
   - name: Ⓜ️ 微软云盘
     type: select
@@ -226,7 +260,11 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
       - 🚀 手动切换
   - name: Ⓜ️ 微软服务
     type: select
@@ -234,7 +272,11 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
       - 🚀 手动切换
   - name: 🍎 苹果服务
     type: select
@@ -242,7 +284,11 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
       - 🚀 手动切换
   - name: 🎮 游戏平台
     type: select
@@ -250,7 +296,11 @@ proxy-groups:
       - DIRECT
       - 🚀 节点选择
       - 🇺🇲 美国节点
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
+      - 🇰🇷 韩国节点
       - 🚀 手动切换
   - name: 🎶 网易音乐
     type: select
@@ -280,24 +330,69 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - DIRECT
+      - 🇭🇰 香港节点
+      - 🇨🇳 台湾节点
+      - 🇸🇬 狮城节点
       - 🇯🇵 日本节点
       - 🇺🇲 美国节点
+      - 🇰🇷 韩国节点
       - 🚀 手动切换
+  - name: 🇭🇰 香港节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies: 
+      - DIRECT
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
-    proxies: [aws.zhangchangsheng.xyz,free.zhangchangsheng.xyz,test.zhangchangsheng.xyz]
+    proxies: 
+      - aws.zhangchangsheng.xyz
+      - test.zhangchangsheng.xyz
+      - free.zhangchangsheng.xyz
+      - 🚀 手动切换
+      - DIRECT
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
-    proxies: [vps.zhangchangsheng.xyz]
+    proxies: 
+      - vps.zhangchangsheng.xyz
+      - DIRECT
+  - name: 🇨🇳 台湾节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies: 
+      - DIRECT
+  - name: 🇸🇬 狮城节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies: 
+      - DIRECT
+  - name: 🇰🇷 韩国节点
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies: 
+      - DIRECT
   - name: 🎥 奈飞节点
     type: select
-    proxies: [vps.zhangchangsheng.xyz]
+    proxies: 
+      - aws.zhangchangsheng.xyz
+      - test.zhangchangsheng.xyz
+      - vps.zhangchangsheng.xyz
+      - free.zhangchangsheng.xyz
+      - 🚀 手动切换
+      - DIRECT
 
 rules:
 # 本地/局域网地址
