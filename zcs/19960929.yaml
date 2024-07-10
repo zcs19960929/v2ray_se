@@ -90,8 +90,7 @@ proxies:
   - {"name":"aws.zhangchangsheng.xyz","type":"vmess","server":"aws.zhangchangsheng.xyz","port":2004,"cipher":"auto","uuid":"f7848e0f-fc5a-4765-b36c-3e6d2db5fb08","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/301VDieu/","headers":{"host":"aws.zhangchangsheng.xyz"}}}
   - {"name":"vps.zhangchangsheng.xyz","type":"vmess","server":"vps.zhangchangsheng.xyz","port":443,"cipher":"auto","uuid":"c8cbd865-8411-40d3-bea9-a0e9662e3042","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"vps.zhangchangsheng.xyz"}}}
   - {"name":"free.zhangchangsheng.xyz","type":"vmess","server":"free.zhangchangsheng.xyz","port":443,"cipher":"auto","uuid":"97ef2bcf-6fc7-476b-e044-23fc28641a68","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"free.zhangchangsheng.xyz"}}}
-  - {"name":"test.zhangchangsheng.xyz","type":"vless","server":"test.zhangchangsheng.xyz","port":443,"uuid":"555271ca-b1e4-4cef-9a2b-c6d9a4eb2d0d","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"test.zhangchangsheng.xyz"}}}
-  
+  - {"name":"test.zhangchangsheng.xyz","type":"vmess","server":"test.zhangchangsheng.xyz","port":443,"cipher":"auto","uuid":"555271ca-b1e4-4cef-9a2b-c6d9a4eb2d0d","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/v2ray","headers":{"host":"test.zhangchangsheng.xyz"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
