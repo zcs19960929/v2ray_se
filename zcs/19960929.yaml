@@ -353,8 +353,6 @@ proxy-groups:
       - aws.zhangchangsheng.xyz
       - test.zhangchangsheng.xyz
       - free.zhangchangsheng.xyz
-      - 🚀 手动切换
-      - DIRECT
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -362,7 +360,6 @@ proxy-groups:
     tolerance: 150
     proxies: 
       - vps.zhangchangsheng.xyz
-      - DIRECT
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
