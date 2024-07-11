@@ -2437,6 +2437,8 @@ rules:
 # 内容：OpenAi
 # 数量：17条
   - DOMAIN-KEYWORD,openai,💬 OpenAi
+  - DOMAIN-KEYWORD,claude.ai,💬 OpenAi
+  - DOMAIN-KEYWORD,meta.ai💬 OpenAi
   - DOMAIN,gemini.google.com,💬 OpenAi
   - DOMAIN-SUFFIX,auth0.com,💬 OpenAi
   - DOMAIN-SUFFIX,challenges.cloudflare.com,💬 OpenAi
