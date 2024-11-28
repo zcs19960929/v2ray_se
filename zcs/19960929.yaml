@@ -345,7 +345,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies: 
-      - aws.zhangchangsheng.xyz
       - test.zhangchangsheng.xyz
       - free.zhangchangsheng.xyz
   - name: 🇺🇲 美国节点
@@ -379,7 +378,6 @@ proxy-groups:
   - name: 🎥 奈飞节点
     type: select
     proxies: 
-      - aws.zhangchangsheng.xyz
       - test.zhangchangsheng.xyz
       - vps.zhangchangsheng.xyz
       - free.zhangchangsheng.xyz
