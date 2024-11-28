@@ -2455,6 +2455,39 @@ rules:
   - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,💬 OpenAi
   - DOMAIN-SUFFIX,sentry.io,💬 OpenAi
   - DOMAIN-SUFFIX,stripe.com,💬 OpenAi
+  - DOMAIN,browser-intake-datadoghq.com,💬 OpenAi
+  - DOMAIN,chat.openai.com.cdn.cloudflare.net,💬 OpenAi
+  - DOMAIN,gemini.google.com,💬 OpenAi
+  - DOMAIN,openai-api.arkoselabs.com,💬 OpenAi
+  - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,💬 OpenAi
+  - DOMAIN,openaicomproductionae4b.blob.core.windows.net,💬 OpenAi
+  - DOMAIN,production-openaicom-storage.azureedge.net,💬 OpenAi
+  - DOMAIN,static.cloudflareinsights.com,💬 OpenAi
+  - DOMAIN-SUFFIX,ai.com,💬 OpenAi
+  - DOMAIN-SUFFIX,algolia.net,💬 OpenAi
+  - DOMAIN-SUFFIX,api.statsig.com,💬 OpenAi
+  - DOMAIN-SUFFIX,auth0.com,💬 OpenAi
+  - DOMAIN-SUFFIX,chatgpt.com,💬 OpenAi
+  - DOMAIN-SUFFIX,chatgpt.livekit.cloud,💬 OpenAi
+  - DOMAIN-SUFFIX,client-api.arkoselabs.com,💬 OpenAi
+  - DOMAIN-SUFFIX,events.statsigapi.net,💬 OpenAi
+  - DOMAIN-SUFFIX,featuregates.org,💬 OpenAi
+  - DOMAIN-SUFFIX,host.livekit.cloud,💬 OpenAi
+  - DOMAIN-SUFFIX,identrust.com,💬 OpenAi
+  - DOMAIN-SUFFIX,intercom.io,💬 OpenAi
+  - DOMAIN-SUFFIX,intercomcdn.com,💬 OpenAi
+  - DOMAIN-SUFFIX,launchdarkly.com,💬 OpenAi
+  - DOMAIN-SUFFIX,oaistatic.com,💬 OpenAi
+  - DOMAIN-SUFFIX,oaiusercontent.com,💬 OpenAi
+  - DOMAIN-SUFFIX,observeit.net,💬 OpenAi
+  - DOMAIN-SUFFIX,openai.com,💬 OpenAi
+  - DOMAIN-SUFFIX,openaiapi-site.azureedge.net,💬 OpenAi
+  - DOMAIN-SUFFIX,openaicom.imgix.net,💬 OpenAi
+  - DOMAIN-SUFFIX,segment.io,💬 OpenAi
+  - DOMAIN-SUFFIX,sentry.io,💬 OpenAi
+  - DOMAIN-SUFFIX,stripe.com,💬 OpenAi
+  - DOMAIN-SUFFIX,turn.livekit.cloud,💬 OpenAi
+  - DOMAIN-KEYWORD,openai,💬 OpenAi
 # 内容：NetEaseMusic 网易云音乐
 # 数量：37条
   - DOMAIN-SUFFIX,163yun.com,🎶 网易音乐
