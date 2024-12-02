@@ -229,6 +229,14 @@ proxy-groups:
       - 🇺🇲 美国节点
       - 🇯🇵 日本节点
       - 🚀 手动切换
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - 🇺🇲 美国节点
+      - 🇯🇵 日本节点
+      - 🚀 手动切换
   - name: 🎮 游戏平台
     type: select
     proxies:
